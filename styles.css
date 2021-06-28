@@ -1,0 +1,75 @@
+html{
+    font-size: 0.625rem;
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: hsl(hue, saturation, lightness);
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    color: rgb(220, 220, 14);
+}
+
+body{
+    background-color: purple;
+    opacity: 1px;
+}
+img{
+    border-radius: 3rem;
+    border-width: 1rem;
+    box-shadow: 0em;
+    border-color: coral;
+    padding: 1rem;
+    position: relative;
+    margin-block-end: 0vw;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: honeydew;
+    padding: 1rem;
+    font-size: 5rem;
+    border-radius: 1vw;
+    border: 3px solid whitesmoke;
+    border-style: groove;
+}
+h3{
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-top-right-radius: 0fr;
+    color: whitesmoke;
+}
+table{
+    font-size: 1rem yellow solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.return{
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+}
+
+p {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 400px){
+    img{
+        display: block;
+    }  
+}
+fieldset{
+    border-color: dimgrey;
+    border-style: solid;
+}
+a{
+    color:rgb(220, 220, 14)
+}
+
