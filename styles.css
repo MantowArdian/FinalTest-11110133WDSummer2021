@@ -29,11 +29,10 @@ h1{
     color: white;
     text-shadow: honeydew;
     text-transform:capitalize;
-    padding: 1rem;
     font-size: 4rem;
-    border-radius: 1vw;
-    border: 3px solid whitesmoke;
-    border-style: groove;
+    padding: -4rem;
+    display:table;
+    margin-left: 825px;
 }
 h3{
     text-align: center;
@@ -43,9 +42,12 @@ h3{
     color: whitesmoke;
 }
 
-div.return{
-    padding-top: 0vw;
-    padding-bottom: 0vw;
+.return{
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    display:table-row;
+    justify-content: space-around;
+    left: 2rem;
 }
 
 p {
@@ -83,16 +85,35 @@ fieldset{
 }
 a{
     color:rgb(220, 220, 14)
-    
+}
+.heading{
+    padding: 1.5rem;
+    margin-left: 1rem;
 }
 .skills{
     font-size: 1rem yellow solid;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1rem;
+    padding: 1.5rem;
+    margin-left: 0.4rem;
 }
 .tabel1{
     padding: 1.5rem;
+    margin-left: 1.5rem;
+}
+.tabel2{
+    padding: 1.5rem;
     margin-left: 0.5rem;
+}
+.tabel3{
+    padding: 1.5rem;
+    margin-left: 1rem;
+}
+.tabel4{
+    padding: 1.5rem;
+    margin-left: 1rem;
+}
+.skills1{
+    margin-right: 1.5rem;
 }
 .cr{
     list-style: none;
