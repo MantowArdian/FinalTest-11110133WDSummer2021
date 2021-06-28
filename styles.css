@@ -2,32 +2,35 @@ html{
     font-size: 0.625rem;
 }
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-shadow: hsl(hue, saturation, lightness);
     font-size: 1.5rem;
     letter-spacing: 0.05rem;
     color: rgb(220, 220, 14);
-}
-
-body{
-    background-color: purple;
-    opacity: 1px;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fayokuliah.id%2Funiversitas%2Funiversitas-klabat%2F&psig=AOvVaw2kcbCAUiGwDvkK-kmCxR11&ust=1624954125051000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNjBzojwufECFQAAAAAdAAAAABA0");
+    background: purple;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
 }
 img{
     border-radius: 3rem;
     border-width: 1rem;
     box-shadow: 0em;
     border-color: coral;
-    padding: 1rem;
     position: relative;
     margin-block-end: 0vw;
+    align-items: inherit;
+    margin-right: 1vw;
 }
 h1{
     text-align: center;
     color: white;
     text-shadow: honeydew;
+    text-transform:capitalize;
     padding: 1rem;
-    font-size: 5rem;
+    font-size: 4rem;
     border-radius: 1vw;
     border: 3px solid whitesmoke;
     border-style: groove;
@@ -39,18 +42,26 @@ h3{
     border-top-right-radius: 0fr;
     color: whitesmoke;
 }
-table{
-    font-size: 1rem yellow solid;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 div.return{
     padding-top: 0vw;
     padding-bottom: 0vw;
 }
 
 p {
-    font-size: 2rem;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-shadow: hsl(hue, saturation, lightness);
+    letter-spacing: 0.05rem;
+    color: rgb(220, 220, 14);
+    display: inline-block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-align: justify;
+    text-indent: inherit;
+    
+    
+
 }
 @media screen and (max-width: 900px) {
     h1 {
@@ -63,13 +74,49 @@ p {
 @media screen and (max-width: 400px){
     img{
         display: block;
-    }  
+    } 
 }
 fieldset{
     border-color: dimgrey;
     border-style: solid;
+    border-right: 3rem;
 }
 a{
     color:rgb(220, 220, 14)
+    
 }
+.skills{
+    font-size: 1rem yellow solid;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+.tabel1{
+    padding: 1.5rem;
+    margin-left: 0.5rem;
+}
+.cr{
+    list-style: none;
+	justify-content: space-around;
+    display: flex;
+	align-items: center;
+	box-shadow: yellow;
+	position: bottom;
+    margin-top: 40rem;
+    margin-right: 5rem;
+	top: 0;
+	width:100%;
+	z-index: 1;
+} 
+/* nav ul a{
+    height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
+} */
 
